@@ -6,7 +6,7 @@ function Showroom(props) {
     const { currentCategory } = props;
   return (
     <section>
-      <h1>{capitalizeFirstLetter(currentCategory.name)}</h1>
+      <h1 data-testid="h1tag">{capitalizeFirstLetter(currentCategory.name)}</h1>
       <p>{currentCategory.name}</p>
       <PhotoList category={currentCategory.name} />
     </section>

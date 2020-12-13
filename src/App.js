@@ -6,7 +6,7 @@ import ContactForm from "./components/Contact";
 
 function App() {
   const [categories] = useState([
-    { name: "portfoilo", description: "Photos of my projects" },
+    { name: "portfolio", description: "Photos of my projects" },
     { name: "resume", description: "My resume" },
     { name: "links", description: "links to my professional social media" },
   ]);
