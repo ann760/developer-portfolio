@@ -46,7 +46,7 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 
 ## Screenshots
-![portfoilo](./src/images/portfolio.jpg)
+![portfoilo](./src/assets/images/port.jpg)
 
 ## Website
 "http://ann760.github.io/developer-portfolio"
