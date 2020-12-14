@@ -8,10 +8,10 @@ function App() {
   const [categories] = useState([
     { name: "portfolio", description: "Photos of my projects" },
     { name: "resume", description: "My resume" },
-    { name: "links", description: "links to my professional social media" },
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const [contactSelected, setContactSelected] = useState(false);
 
   return (
     <div>
@@ -19,14 +19,20 @@ function App() {
         categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
       ></Nav>
       <main>
-        <div>
+        {!contactSelected ? (
+          <>   
+            <Showroom currentCategory={currentCategory}></Showroom>
+            <About></About>
+          </>
+        ) : (
           <ContactForm></ContactForm>
-          <Showroom currentCategory={currentCategory}></Showroom>
-          <About></About>
-        </div>
+        )}
       </main>
+      <Footer></Footer>
     </div>
   );
 }

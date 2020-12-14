@@ -8,12 +8,22 @@ const PhotoList = ({ category }) => {
       description: "Search a word",
     },
     {
-      name: "wordsearchModel",
+      name: "myfoodchoice",
       category: "portfolio",
       description: "submit food allergies and favorite foods",
     },
     {
-      name: "wordsearchModel1",
+      name: "budget",
+      category: "portfolio",
+      description: "css heart",
+    },
+    {
+      name: "codequiz",
+      category: "portfolio",
+      description: "css heart",
+    },
+    {
+      name: "techblog",
       category: "portfolio",
       description: "css heart",
     },
@@ -21,7 +31,13 @@ const PhotoList = ({ category }) => {
       name: "cssheart",
       category: "portfolio",
       description: "css heart",
-    }
+    },
+    {
+      name: "me",
+      category: "resume",
+      description: "me",
+    },
+
   ]);
 
   const currentPhotos = photos.filter((photo) => photo.category === category);
