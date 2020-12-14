@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import About from "./components/About";
 import Showroom from "./components/Showroom";
 import ContactForm from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   const [categories] = useState([
