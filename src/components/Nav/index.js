@@ -6,23 +6,25 @@ function Nav(props) {
  
   return (
     <header className="flex-row px-1">
-      <h2>
+      <h2> 
         <a data-testid="link" href="/">
           <span role="img" aria-label="camera">
             {" "}
-            💻
+            Ann-Marie Orozco 💻
           </span>{" "}
         </a>
       </h2>
-      <nav>
-        <h2 className="flex-row">
+      <nav> 
+        <h5 className="flex-row">
+        <div>
         <div>
         <NavLink to="/about" activeClassName="selected">About </NavLink>
         <NavLink to="/showroom" activeClassName="selected">Showroom </NavLink>
         <NavLink to="/contact" activeClassName="selected">Contact </NavLink>
         <NavLink to="/resume" activeClassName="selected">Resume </NavLink>
         </div>
-        </h2>
+        </div>
+        </h5>
       </nav>
       <br/>
       <br/>
