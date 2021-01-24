@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Deascription
-Budget website PWA to track transactons.
+Developer portfolio website to display my projects.
 
 ## Table of Contents
 - [Description](#description)

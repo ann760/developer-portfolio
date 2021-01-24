@@ -15,11 +15,11 @@ const PhotoList = (props) => {
       link: "https://food-67923.herokuapp.com/login"
     },
     {
-      name: "budget",
+      name: "media-store",
       category: "portfolio",
-      description: "css heart",
-      link: "https://budget-76695.herokuapp.com/"
-    },
+      description: "Media-store",
+      link: "https://floating-badlands-78581.herokuapp.com/"
+    },  
     {
       name: "codequiz",
       category: "portfolio",
@@ -33,11 +33,11 @@ const PhotoList = (props) => {
       link: "https://peaceful-garden-31793.herokuapp.com/"
     },
     {
-      name: "media-store",
+      name: "budget",
       category: "portfolio",
-      description: "Media-store",
-      link: "https://floating-badlands-78581.herokuapp.com/"
-    },  
+      description: "budget",
+      link: "https://budget-76695.herokuapp.com/"
+    },
     {
       name: "cssheart",
       category: "portfolio",
