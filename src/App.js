@@ -1,39 +1,33 @@
-import React, { useState } from "react";
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  Redirect
+} from "react-router-dom";
 import Nav from "./components/Nav";
 import About from "./components/About";
 import Showroom from "./components/Showroom";
 import ContactForm from "./components/Contact";
+import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 
+
 function App() {
-  const [categories] = useState([
-    { name: "portfolio", description: "Photos of my projects" },
-    { name: "resume", description: "My resume" },
-  ]);
-
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
-  const [contactSelected, setContactSelected] = useState(false);
-
   return (
-    <div>
-      <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
-      <main>
-        {!contactSelected ? (
-          <>   
-            <Showroom currentCategory={currentCategory}></Showroom>
-            <About></About>
-          </>
-        ) : (
-          <ContactForm></ContactForm>
-        )}
-      </main>
-      <Footer></Footer>
+    <div className="App">
+
+      <Router>
+        <Nav />
+        <div className="content">
+          <Route path="/" render={() => (<Redirect to="/about" />)} />
+          <Route path="/showroom" component={Showroom} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={ContactForm} />
+          <Route path="/resume" component={Resume} />
+        </div>
+        <Footer />
+      </Router>
+
     </div>
   );
 }

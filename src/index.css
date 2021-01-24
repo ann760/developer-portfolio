@@ -27,8 +27,8 @@ body {
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  margin: 10;
+  padding: 10;
   font-weight: 600;
   line-height: 1.5;
   font-size: 18px;
@@ -92,10 +92,12 @@ a:hover {
 
 header {
   background: var(--dark);
+  text-align: center;
 }
 
 header a {
   color: var(--light);
+    
 }
 
 footer {
@@ -172,8 +174,13 @@ nav a:hover {
   text-decoration: var(--secondary);
 }
 
-nav  li {
+nav li {
   cursor: pointer;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
 }
 
 textarea {

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const PhotoList = ({ category }) => {
+const PhotoList = (props) => {
   const [photos] = useState([
     {
       name: "wordsearch",
@@ -33,37 +33,34 @@ const PhotoList = ({ category }) => {
       link: "https://peaceful-garden-31793.herokuapp.com/"
     },
     {
+      name: "media-store",
+      category: "portfolio",
+      description: "Media-store",
+      link: "https://floating-badlands-78581.herokuapp.com/"
+    },  
+    {
       name: "cssheart",
       category: "portfolio",
       description: "css heart",
       link: "https://codepen.io/ann760/details/vVWbVQ"
     },
-    {
-      name: "me",
-      category: "resume",
-      description: "me",
-      link: "https://ann760.github.io/react-portfolio/resume.pdf"
-    },
 
   ]);
-
-  const currentPhotos = photos.filter((photo) => photo.category === category);
 
   return (
     <div className="thumbnail">
       <div className="flex-row">
-        {currentPhotos.map((image, i) => (
+        {photos.map((image, i) => (
          <a href={image.link}
            key={image.name}>
           <img
-            src={require(`../../assets/images/projects/${category}/${i}.jpg`).default}
+            src={require(`../../assets/images/projects/portfolio/${i}.jpg`).default}
             alt={image.name}
             className="img-thumbnail mx-1"
             key={image.name}
             
           /></a>
          
-
         ))}
       </div>
     </div>
