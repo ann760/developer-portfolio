@@ -3,12 +3,12 @@ import React from "react";
 function Resume() {
   return (
     <section className="my-5">
-      <a
+      {/* <a
         href="https://ann760.github.io/developer-portfolio/resume.pdf"
         target="_blank"
       >
         Download PDF
-      </a>
+      </a> */}
       <h4>Degrees:</h4>
       <br></br>
       Inforamation technology 2005 (AIU)<br></br>
