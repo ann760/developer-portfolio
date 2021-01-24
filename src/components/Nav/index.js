@@ -1,5 +1,4 @@
 import React from "react";
-//import { capitalizeFirstLetter } from "../../utils/helpers";
 import {NavLink} from "react-router-dom";
 
 function Nav(props) {
