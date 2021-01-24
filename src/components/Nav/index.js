@@ -6,8 +6,8 @@ function Nav(props) {
   return (
     <header className="flex-row px-1">
       <h2> 
-        <a data-testid="link" href="/">
-          <span role="img" aria-label="camera">
+        <a data-testid="link" href="/about">
+          <span role="img" aria-label="laptop">
             {" "}
             Ann-Marie Orozco 💻
           </span>{" "}
