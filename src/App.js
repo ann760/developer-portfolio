@@ -25,6 +25,7 @@ function App() {
           <Route path="/contact" component={ContactForm} />
           <Route path="/resume" component={Resume} />
         </div>
+        <About />
         <Footer />
       </Router>
 
