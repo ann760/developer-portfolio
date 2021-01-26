@@ -5,11 +5,11 @@ function Nav() {
  
   return (
     <header className="flex-row px-1">
-      <h2> 
+      <h2> Ann-Marie Orozco 
       <NavLink to="/developer-portfolio">
           <span role="img" aria-label="laptop">
             {" "}
-            Ann-Marie Orozco 💻
+            💻
           </span>{" "}
         </NavLink>
       </h2>

@@ -1,5 +1,6 @@
 import React from "react";
 import coverImage from "../../assets/images/cover/me-dev.jpg";
+import {NavLink} from "react-router-dom";
 
 function About() {
   return (
@@ -11,7 +12,12 @@ function About() {
       </p>
       <p>
   
-        View my "Showroom" to see my sites or contact me whith any questions. Can't wait to hear from you!
+        View my <NavLink to="/showroom">
+          <span >
+            {" "}
+            "Showroom"
+          </span>{" "}
+        </NavLink> to see my sites or contact me whith any questions. Can't wait to hear from you!
       </p>
       <img
         src={coverImage}
