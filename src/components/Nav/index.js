@@ -1,17 +1,17 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
 
-function Nav(props) {
+function Nav() {
  
   return (
     <header className="flex-row px-1">
       <h2> 
-        {/* <a data-testid="link" href="/"> */}
+      <NavLink to="/about">
           <span role="img" aria-label="laptop">
             {" "}
             Ann-Marie Orozco 💻
           </span>{" "}
-        {/* </a> */}
+        </NavLink>
       </h2>
       <nav> 
         <h5 className="flex-row">
