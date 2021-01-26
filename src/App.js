@@ -19,7 +19,7 @@ function App() {
       <Router>
         <Nav />
         <div className="content">
-          <Route path="/" render={() => (<Redirect to="/" />)} />
+          <Route path="/developer-portfolio" render={() => (<Redirect to="/developer-portfolio" />)} />
           <Route path="/showroom" component={Showroom} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={ContactForm} />
