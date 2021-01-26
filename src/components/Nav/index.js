@@ -17,10 +17,10 @@ function Nav() {
         <h5 className="flex-row">
         <div>
         <div>
-        <NavLink to="/about" activeClassName="selected">About </NavLink>
-        <NavLink to="/showroom" activeClassName="selected">Showroom </NavLink>
-        <NavLink to="/contact" activeClassName="selected">Contact </NavLink>
-        <NavLink to="/resume" activeClassName="selected">Resume </NavLink>
+        <NavLink to="/developer-portfolio/about" activeClassName="selected">About </NavLink>
+        <NavLink to="/developer-portfolio/showroom" activeClassName="selected">Showroom </NavLink>
+        <NavLink to="/developer-portfolio/contact" activeClassName="selected">Contact </NavLink>
+        <NavLink to="/developer-portfolio/resume" activeClassName="selected">Resume </NavLink>
         </div>
         </div>
         </h5>
