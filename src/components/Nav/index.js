@@ -6,7 +6,7 @@ function Nav() {
   return (
     <header className="flex-row px-1">
       <h2> 
-      <NavLink to="/about">
+      <NavLink to="/">
           <span role="img" aria-label="laptop">
             {" "}
             Ann-Marie Orozco 💻
