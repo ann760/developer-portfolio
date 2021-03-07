@@ -67,18 +67,17 @@ const PhotoList = (props) => {
             className="img-thumbnail mx-1"
             key={image.name}
             />
-          <ul>
-         <li><a
-          style={{ width: "20%" }}
-          href={image.git}
-          target="_blank"
-        >
-          {" "}
-          <img src={githubLogo} style={{ width: "7%" }} alt="GitHub logo" />
-        </a></li>
-          <li><a href={image.git} aria-hidden="true"></a></li>
-          <li><a href={image.description}></a></li>
-          </ul></a> 
+           <div><ul>
+            <li><a
+              style={{ width: "20%" }}
+              href={image.git}
+              target="_blank"
+            >
+              {" "}
+              <img src={githubLogo} style={{ width: "7%" }} alt="GitHub logo" /></a></li>
+              <li><a href={image.git} aria-hidden="true"></a></li>
+              <li><a href={image.description}></a></li>
+          </ul></div></a> 
         ))}
       </div>
     </div>
