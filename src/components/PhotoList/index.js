@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import githubLogo from "../../assets/images/github_logo.png";
 
 const PhotoList = (props) => {
   const [photos] = useState([
@@ -65,11 +66,19 @@ const PhotoList = (props) => {
             alt={image.name}
             className="img-thumbnail mx-1"
             key={image.name}
-          />
-          <ul class="social">
-         <li><a href={image.git} aria-hidden="true"></a></li>
-          <li><a href={image.description} aria-hidden="true"></a></li>
-          </ul></a>
+            />
+          <ul>
+         <li><a
+          style={{ width: "20%" }}
+          href={image.git}
+          target="_blank"
+        >
+          {" "}
+          <img src={githubLogo} style={{ width: "7%" }} alt="GitHub logo" />
+        </a></li>
+          <li><a href={image.git} aria-hidden="true"></a></li>
+          <li><a href={image.description}></a></li>
+          </ul></a> 
         ))}
       </div>
     </div>
