@@ -28,21 +28,21 @@ const PhotoList = (props) => {
       category: "portfolio",
       description: "css heart",
       link: "https://ann760.github.io/code-quiz/",
-      git: ""
+      git: "https://github.com/ann760/code-quiz"
     },
     {
       name: "techblog",
       category: "portfolio",
       description: "tech blog",
       link: "https://peaceful-garden-31793.herokuapp.com/",
-      git:""
+      git:"https://github.com/ann760/tech-blog"
     },
     {
       name: "budget",
       category: "portfolio",
       description: "budget",
       link: "https://budget-76695.herokuapp.com/",
-      git: ""
+      git: "https://github.com/ann760/budget-tracker-pwa"
     },
     {
       name: "cssheart",
