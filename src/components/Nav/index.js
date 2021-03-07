@@ -19,7 +19,6 @@ function Nav() {
         <div>
         <NavLink to="/about" activeClassName="selected">About </NavLink>
         <NavLink to="/showroom" activeClassName="selected">Showroom </NavLink>
-        <NavLink to="/contact" activeClassName="selected">Contact </NavLink>
         <NavLink to="/resume" activeClassName="selected">Resume </NavLink>
         </div>
         </div>

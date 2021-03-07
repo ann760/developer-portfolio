@@ -292,6 +292,7 @@ textarea {
 
 .thumbnail:hover .img-thumbnail::after {
   opacity: 1;
+  
 }
 
 .thumbnail:hover .img-thumbnail h3, .thumbnail:hover .img-thumbnail h4 {

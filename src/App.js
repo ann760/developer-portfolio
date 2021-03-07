@@ -7,7 +7,6 @@ import {
 import Nav from "./components/Nav";
 import About from "./components/About";
 import Showroom from "./components/Showroom";
-import ContactForm from "./components/Contact";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 
@@ -22,7 +21,6 @@ function App() {
           <Route path="/developer-portfolio" render={() => (<Redirect to="/developer-portfolio" />)} />
           <Route path="/showroom" component={Showroom} />
           <Route path="/about" component={About} />
-          <Route path="/contact" component={ContactForm} />
           <Route path="/resume" component={Resume} />
         </div>
         <About />
