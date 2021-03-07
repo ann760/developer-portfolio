@@ -292,11 +292,16 @@ textarea {
 
 .thumbnail:hover .img-thumbnail::after {
   opacity: 1;
-  
+
 }
 
 .thumbnail:hover .img-thumbnail h3, .thumbnail:hover .img-thumbnail h4 {
   transform: translateY(-200px);
+}
+
+.thumbnail li a:hover {
+  color: #1369ce;
+  background-color: #f7f5ec;
 }
 
 button {
