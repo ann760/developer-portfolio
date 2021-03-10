@@ -9,12 +9,14 @@ function Resume() {
       >
         Download PDF
       </a> */}
-      <h4>Degrees:</h4>
+      <h4>Full Stack Web Developer with a background in Software Testing.</h4>
       <br></br>
-      Inforamation technology 2005 (AIU)<br></br>
-      Coding Bootcamp 2021 (UC Berkeley)<br></br>
+      <h5>Degrees:</h5>
       <br></br>
-      <h4>Skills</h4>
+      <h6>Bachelors of Information Technology in Computer Systems: American InterContinental University, 2005)<br></br>
+      Bootcamp Certificate: Berkeley Extension, 2021<br></br>
+      <br></br></h6>
+      <h5>Skills</h5>
       <ul>
         <li>JavaScript</li>
         <li>CSS</li>

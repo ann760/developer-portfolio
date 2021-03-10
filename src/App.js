@@ -18,12 +18,12 @@ function App() {
       <Router>
         <Nav />
         <div className="content">
-          <Route path="/developer-portfolio" render={() => (<Redirect to="/developer-portfolio" />)} />
+          <Route path="/developer-portfolio" render={() => (<Redirect to="/about" />)} />
           <Route path="/showroom" component={Showroom} />
           <Route path="/about" component={About} />
           <Route path="/resume" component={Resume} />
         </div>
-        <About />
+        {/* <About /> */}
         <Footer />
       </Router>
 

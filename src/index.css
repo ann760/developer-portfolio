@@ -7,7 +7,7 @@ main {
   --primary: #3d2c4b;
   --secondary: #c38eee;
   --tertiary: #04a5b1;
-  --light: #eef1a7;
+  --light: #f7f7f7;
   --dark: #211c25;
   --darker: #140d1a;
   --error: rgb(73, 1, 1);
@@ -52,6 +52,7 @@ h6 {
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
+  text-align: center;
 }
 
 h1 {
@@ -76,6 +77,7 @@ h5 {
 
 h6 {
   font-size: 1rem;
+  text-align: left;
 }
 
 p {
@@ -245,8 +247,8 @@ textarea {
 }
 
 .thumbnail {
-  width: 550px;
-  height: 320px;
+  width: 450px;
+  height: 250px;
   margin-bottom: 10px;
   cursor: pointer;
   display: flex;
@@ -281,8 +283,9 @@ textarea {
   bottom: 20px; 
   right: 10px;
   background: rgba(37, 24, 44, 0.445);
+  color: var(--light);
   width: 35%;
-  height: 15%;
+  height: 20%;
   transition: 0.5s;
   text-transform: uppercase;
 
