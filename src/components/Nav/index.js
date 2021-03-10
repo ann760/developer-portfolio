@@ -17,7 +17,7 @@ function Nav() {
         <h5 className="flex-row">
         <div>
         <div>
-        {/* <NavLink to="/about" activeClassName="selected">About </NavLink> */}
+        <NavLink to="/about" activeClassName="selected">About </NavLink>
         <NavLink to="/showroom" activeClassName="selected">Showroom </NavLink>
         <NavLink to="/resume" activeClassName="selected">Resume </NavLink>
         </div>

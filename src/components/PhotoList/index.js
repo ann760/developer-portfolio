@@ -57,9 +57,8 @@ const PhotoList = (props) => {
 
   return (
     <div className="parent">
-    
-       
-          {photos.map((image, i) => (
+      {photos.map((image, i) => (
+      <div className="thumbnail">
           <a href={image.link}
             key={image.name}>
             <img
@@ -67,23 +66,21 @@ const PhotoList = (props) => {
               alt={image.name}
               className="img-thumbnail"
               key={image.name}
-              />
-                <div className="flex-row">
-                <p> {image.name}</p>
+              /> 
+                <div className="name">
+                  {image.name}
+                  <a
+                      style={{ width: "50%" }}
+                      href={image.git}
+                      target="_blank"
+                    >
+                  {" "}
+                  <img src={githubLogo} style={{ width: "10%" }} alt="GitHub logo" /></a> 
                 </div>
-                <div>
-                <a
-                    style={{ width: "20%" }}
-                    href={image.git}
-                    target="_blank"
-                  >
-                {" "}
-                <img src={githubLogo} style={{ width: "7%" }} alt="GitHub logo" /></a> 
-                </div>
-          </a>
-          ))}
-      
-    </div>
+                </a>
+        </div>     
+       ))}
+   </div>
   );
 };
 

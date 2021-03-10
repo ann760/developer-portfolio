@@ -20,7 +20,7 @@ function App() {
         <div className="content">
           <Route path="/developer-portfolio" render={() => (<Redirect to="/developer-portfolio" />)} />
           <Route path="/showroom" component={Showroom} />
-          {/* <Route path="/about" component={About} /> */}
+          <Route path="/about" component={About} />
           <Route path="/resume" component={Resume} />
         </div>
         <About />
