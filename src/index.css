@@ -247,8 +247,8 @@ textarea {
 }
 
 .thumbnail {
-  width: 450px;
-  height: 250px;
+  width: 375px;
+  height: 200px;
   margin-bottom: 10px;
   cursor: pointer;
   display: flex;
@@ -260,7 +260,7 @@ textarea {
 }
 
 .img-thumbnail {
-  width: 500px;
+  width: 400px;
   height: 300px;
   margin-bottom: 10px;
   cursor: pointer;
