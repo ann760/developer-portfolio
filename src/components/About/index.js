@@ -17,7 +17,7 @@ function About() {
             {" "}
             "Showroom"
           </span>{" "}
-        </NavLink> to see my sites or contact me at ammiedillier@gmail.com. Can't wait to hear from you!
+        </NavLink> to see my sites or contact me at anniedillier@gmail.com. Can't wait to hear from you!
       </p>
       <img
         src={coverImage}

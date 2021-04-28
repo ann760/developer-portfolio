@@ -17,8 +17,8 @@ function App() {
 
       <Router>
         <Nav />
-        <div className="content">
-          <Route path="/developer-portfolio" render={() => (<Redirect to="/about" />)} />
+        <Route path="/developer-portfolio" render={() => (<Redirect to="/about" />)} />
+          <div className="content">
           <Route path="/showroom" component={Showroom} />
           <Route path="/about" component={About} />
           <Route path="/resume" component={Resume} />
