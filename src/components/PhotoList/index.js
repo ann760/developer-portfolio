@@ -23,7 +23,7 @@ const PhotoList = (props) => {
       description: "Media-store",
       link: "https://floating-badlands-78581.herokuapp.com/",
       git: "https://github.com/ann760/media-store"
-    },  
+    },
     {
       name: "code quiz",
       category: "portfolio",
@@ -36,7 +36,7 @@ const PhotoList = (props) => {
       category: "portfolio",
       description: "tech blog",
       link: "https://peaceful-garden-31793.herokuapp.com/",
-      git:"https://github.com/ann760/tech-blog"
+      git: "https://github.com/ann760/tech-blog"
     },
     {
       name: "budget",
@@ -58,7 +58,7 @@ const PhotoList = (props) => {
   return (
     <div className="parent">
       {photos.map((image, i) => (
-      <div className="thumbnail">
+        <div className="thumbnail">
           <a href={image.link}
             key={image.name}>
             <img
@@ -66,21 +66,22 @@ const PhotoList = (props) => {
               alt={image.name}
               className="img-thumbnail"
               key={image.name}
-              /> 
-                <div className="name">
-                  {image.name}
-                  <a
-                      style={{ width: "50%" }}
-                      href={image.git}
-                      target="_blank"
-                    >
-                  {" "}
-                  <img src={githubLogo} style={{ width: "10%" }} alt="GitHub logo" /></a> 
-                </div>
-                </a>
-        </div>     
-       ))}
-   </div>
+            />
+            <div className="name">
+              {image.name}
+              <a
+                style={{ width: "50%" }}
+                href={image.git}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                <img src={githubLogo} style={{ width: "10%" }} alt="GitHub logo" /></a>
+            </div>
+          </a>
+        </div>
+      ))}
+    </div>
   );
 };
 

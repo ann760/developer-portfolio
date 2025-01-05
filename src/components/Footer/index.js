@@ -10,6 +10,7 @@ function Nav() {
         <a
           href="https://www.linkedin.com/in/ann-marie-orozco-2218b925/"
           target="_blank"
+          rel="noreferrer"
         >
           {" "}
           <img src={linkedinLogo} style={{ width: "7%" }} alt="LinkedIn Logo" />{" "}
@@ -18,6 +19,7 @@ function Nav() {
           style={{ width: "20%" }}
           href="https://github.com/ann760"
           target="_blank"
+          rel="noreferrer"
         >
           {" "}
           <img src={githubLogo} style={{ width: "7%" }} alt="GitHub logo" />
