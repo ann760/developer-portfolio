@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Deascription
-Developer portfolio website to display my projects.
+Create a portfolio website to display my projects.
 
 ## Screenshots
 ![portfoilo](./src/assets/images/port.jpg)

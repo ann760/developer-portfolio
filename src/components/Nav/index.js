@@ -20,6 +20,7 @@ function Nav() {
         <NavLink to="/about" activeClassName="selected">About </NavLink>
         <NavLink to="/showroom" activeClassName="selected">Showroom </NavLink>
         <NavLink to="/resume" activeClassName="selected">Resume </NavLink>
+        <NavLink to="/contact" activeClassName="selected">Contact </NavLink>
         </div>
         </div>
         </h5>

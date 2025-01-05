@@ -1,5 +1,5 @@
 import React from "react";
-import coverImage from "../../assets/images/cover/me-dev.jpg";
+import coverImage from "../../assets/images/cover/me-dev2.jpg";
 import {NavLink} from "react-router-dom";
 
 function About() {
@@ -17,7 +17,7 @@ function About() {
             {" "}
             "Showroom"
           </span>{" "}
-        </NavLink> to see my sites or contact me at anniedillier@gmail.com. Can't wait to hear from you!
+        </NavLink> contact me at anniedillier@gmail.com.
       </p>
       <img
         src={coverImage}
