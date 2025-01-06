@@ -1,4 +1,5 @@
 import React from "react";
+import { pdfjs } from 'react-pdf';
 import {
   BrowserRouter as Router,
   Route,
@@ -11,6 +12,10 @@ import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+  'pdfjs-dist/build/pdf.worker.min.mjs',
+  import.meta.url,
+).toString();
 
 function App() {
   return (
@@ -19,7 +24,7 @@ function App() {
       <Router>
         <Nav />
         <Route path="/developer-portfolio" render={() => (<Redirect to="/about" />)} />
-          <div className="content">
+        <div className="content">
           <Route path="/showroom" component={Showroom} />
           <Route path="/about" component={About} />
           <Route path="/resume" component={Resume} />

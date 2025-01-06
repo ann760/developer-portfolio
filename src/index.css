@@ -1,8 +1,9 @@
 main {
-	margin: 0 auto;
-	max-width: 90%;
+  margin: 0 auto;
+  max-width: 90%;
   padding: 50px 30px;
 }
+
 :root {
   --primary: #3d2c4b;
   --secondary: #c38eee;
@@ -101,7 +102,7 @@ header {
 }
 
 header a {
-  color: var(--secondary);   
+  color: var(--secondary);
 }
 
 footer {
@@ -188,10 +189,10 @@ nav {
 }
 
 textarea {
-	width: 600px;
-	height: 120px;
-	border: 3px solid #cccccc;
-	padding: 5px;
+  width: 600px;
+  height: 120px;
+  border: 3px solid #cccccc;
+  padding: 5px;
 }
 
 .container {
@@ -242,7 +243,7 @@ textarea {
 .parent {
   position: relative;
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   margin: 20px;
 }
 
@@ -270,7 +271,7 @@ textarea {
   overflow: hidden;
   position: relative;
   transition: .5s;
-} 
+}
 
 .thumbnail:hover {
   z-index: 1;
@@ -279,8 +280,8 @@ textarea {
 }
 
 .name {
-  position: absolute; 
-  bottom: 5px; 
+  position: absolute;
+  bottom: 5px;
   right: 30px;
   background: rgba(41, 18, 53, 0.445);
   color: var(--light);
@@ -290,28 +291,28 @@ textarea {
   text-transform: lowercase;
   text-indent: 1px;
   text-align: center;
-} 
+}
 
 button {
-	background: var(--primary);
-	border: 0;
-	border-radius: 5px;
-	color: #fff;
-	cursor: pointer;
-	font-size: 16px;
-	font-weight: 600;
-	margin-bottom: 30px;
-	padding: 10px 15px;	
+  background: var(--primary);
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding: 10px 15px;
 }
 
 a {
-	border-radius: 5px;
-	color: var(--secondary);
-	font-weight: 600;
-	padding: 2px 4px;
-	margin-left: -2px;
-	margin-right: -2px;
-	
+  border-radius: 5px;
+  color: var(--secondary);
+  font-weight: 600;
+  padding: 2px 4px;
+  margin-left: -2px;
+  margin-right: -2px;
+
 }
 
 .navActive {
