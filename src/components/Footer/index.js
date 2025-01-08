@@ -13,16 +13,15 @@ function Nav() {
           rel="noreferrer"
         >
           {" "}
-          <img src={linkedinLogo} style={{ width: "7%" }} alt="LinkedIn Logo" />{" "}
+          <img src={linkedinLogo} style={{ width: "5%" }} alt="LinkedIn Logo" />{" "}
         </a>
         <a
-          style={{ width: "20%" }}
           href="https://github.com/ann760"
           target="_blank"
           rel="noreferrer"
         >
           {" "}
-          <img src={githubLogo} style={{ width: "7%" }} alt="GitHub logo" />
+          <img src={githubLogo} style={{ width: "5%" }} alt="GitHub logo" />
         </a>
       </div>
     </footer>

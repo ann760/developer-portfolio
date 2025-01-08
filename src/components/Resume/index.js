@@ -15,7 +15,14 @@ function Resume() {
       <br></br>
       <div>
         <Document file={pdf} onLoadSuccess={onDocumentLoadSuccess}>
-          <Page pageNumber={pageNumber} renderTextLayer={false} renderAnnotationLayer={false} />
+          {Array.apply(null, Array(numPages))
+            .map((x, i) => i + 1)
+            .map((page) => {
+              return (
+                <Page pageNumber={page} renderTextLayer={false} renderAnnotationLayer={false} />
+              )
+            })}
+
         </Document>
         <p>
           Page {pageNumber} of {numPages}

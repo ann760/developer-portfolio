@@ -89,7 +89,16 @@ p {
 a {
   color: var(--tertiary);
   text-decoration: none;
-  font-weight: bold;
+  /* font-weight: bold; */
+}
+
+a {
+  border-radius: 5px;
+  /* color: var(--secondary); */
+  /* font-weight: 600; */
+  padding: 1px 4px;
+  margin-left: 2px;
+  margin-right: 5px;
 }
 
 a:hover {
@@ -98,6 +107,8 @@ a:hover {
 
 header {
   background: var(--dark);
+  display: flex;
+  justify-content: space-between;
   text-align: center;
 }
 
@@ -107,7 +118,7 @@ header a {
 
 footer {
   background: var(--secondary);
-  padding: 40px 35px;
+  padding: 20px 35px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -116,7 +127,7 @@ footer {
 }
 
 footer div {
-  line-height: 1.5;
+  line-height: 1.0;
   text-align: right;
 }
 
@@ -149,9 +160,9 @@ img {
   max-width: 100%;
 }
 
-span[role="img"] {
+/* span[role="img"] {
   cursor: default;
-}
+} */
 
 form {
   width: 40%;
@@ -205,6 +216,7 @@ textarea {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .space-between {
@@ -303,16 +315,6 @@ button {
   font-weight: 600;
   margin-bottom: 30px;
   padding: 10px 15px;
-}
-
-a {
-  border-radius: 5px;
-  color: var(--secondary);
-  font-weight: 600;
-  padding: 2px 4px;
-  margin-left: -2px;
-  margin-right: -2px;
-
 }
 
 .navActive {
