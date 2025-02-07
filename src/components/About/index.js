@@ -1,11 +1,10 @@
 import React from "react";
-import coverImage from "../../assets/images/cover/me-dev2.jpg";
+import coverImage from "../../assets/images/cover/me-dev2.png";
 import { NavLink } from "react-router-dom";
 
-function About() {
+const About = () => {
   return (
-    <section>
-      <h3 id="about">Who am I?</h3>
+    <section id="about">
       <h1>I am
         <NavLink to="/developer-portfolio"> Ann-Marie Orozco </NavLink>
       </h1>
@@ -24,8 +23,8 @@ function About() {
         </NavLink> contact me at anniedillier@gmail.com.
       </p>
       <img
+        className="aboutImg"
         src={coverImage}
-        className="my-2"
         style={{ width: "100%" }}
         alt="cover"
       />

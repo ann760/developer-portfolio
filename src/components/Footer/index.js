@@ -2,9 +2,9 @@ import React from "react";
 import linkedinLogo from "../../assets/images/linkedin_logo.png";
 import githubLogo from "../../assets/images/github_logo.png";
 
-function Nav() {
+const Footer = () => {
   return (
-    <footer>
+    <footer className="footer">
       <h6>💻 Created by Ann-Marie Orozco</h6>
       <div>
         <a
@@ -28,4 +28,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default Footer;

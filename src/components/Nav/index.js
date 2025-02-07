@@ -1,8 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-function Nav() {
-
+// function Nav() {
+const Nav = () => {
   return (
     <header className="flex-row px-2">
       <div>
