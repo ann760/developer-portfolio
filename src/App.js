@@ -5,12 +5,12 @@ import {
   Route,
   Redirect
 } from "react-router-dom";
-import Nav from "./components/Nav";
-import About from "./components/About";
-import Showroom from "./components/Showroom";
-import Resume from "./components/Resume";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Nav from "./components/Nav/nav";
+import About from "./components/About/about";
+import Showroom from "./components/Showroom/showroom";
+import Resume from "./components/Resume/resume";
+import Contact from "./components/Contact/contact";
+import Footer from "./components/Footer/footer";
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.mjs',

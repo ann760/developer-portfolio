@@ -5,12 +5,12 @@ import { NavLink } from "react-router-dom";
 const Nav = () => {
   return (
     <header className="flex-row px-2">
-      <div>
+      <div className="nav-home">
         <NavLink to="/developer-portfolio" activeClassName="selected">Ann-Marie Orozco </NavLink>
       </div>
       <nav>
         <h5 className="flex-row">
-          <div>
+          <div className="nav-menu" >
             <NavLink to="/showroom" activeClassName="selected">Showroom </NavLink>
             <NavLink to="/resume" activeClassName="selected">Resume </NavLink>
             <NavLink to="/contact" activeClassName="selected">Contact </NavLink>

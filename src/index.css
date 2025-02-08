@@ -1,6 +1,6 @@
 main {
   margin: 0 auto;
-  max-width: 90%;
+  max-width: 100%;
   padding: 50px 30px;
 }
 
@@ -37,9 +37,9 @@ body {
   letter-spacing: .1em;
   background: var(--dark);
   color: var(--light);
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   min-height: 100vh;
 }
 
@@ -126,12 +126,12 @@ header a {
   width: 100%;
 }
 
-footer div {
-  line-height: 1.0;
+.footer div {
+  line-height: 1.5;
   text-align: right;
 }
 
-footer a {
+.footer a {
   color: var(--primary);
 }
 
@@ -204,8 +204,16 @@ nav li {
   text-align: center;
 }
 
-nav {
+/* nav {
   text-align: center;
+} */
+
+.nav-home {
+  text-align: left;
+}
+
+.nav-menu {
+  text-align: right;
 }
 
 textarea {

@@ -1,5 +1,5 @@
 import React from "react";
-import Projects from "../PhotoList/index";
+import Projects from "../PhotoList/photo";
 import githubLogo from "../../assets/images/github_logo.png";
 
 const Showroom = () => {
